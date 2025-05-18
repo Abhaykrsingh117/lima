@@ -1,0 +1,55 @@
+Basics of Open Source Demystified - Git Bash Procedures
+Procedure 1: Git Commands
+•	Common Git commands include:
+•	- git init: Initialize a repository
+•	- git clone <url>: Clone a repository
+•	- git add .: Stage changes
+•	- git commit -m "msg": Commit changes
+•	- git push: Push to remote
+•	- git pull: Pull from remote
+•	- git status / log / branch / checkout / merge etc.
+Procedure 2: Cloning a Repository
+•	1. Open Git Bash
+•	2. Navigate to folder: cd path/to/folder
+•	3. git clone <repo-url>
+•	4. cd repository-name
+Procedure 3: Forking a Repository
+•	1. Click 'Fork' on GitHub
+•	2. Clone your fork: git clone <your-fork-url>
+Procedure 4: Performing the First Commit
+•	1. git init
+•	2. git add .
+•	3. git commit -m "Initial commit"
+•	4. git log
+Procedure 5: Push Changes to Repository
+•	1. git add .
+•	2. git commit -m "msg"
+•	3. git push https://<username>:<token>@github.com/<username>/<repo>.git
+Procedure 6: Pull Changes from Repository
+•	1. cd path/to/repo
+•	2. git pull origin main
+Procedure 7: Credential Manager (Windows)
+•	1. Open Credential Manager
+•	2. Go to Windows Credentials
+•	3. Remove GitHub credentials
+Procedure 8: Creating a New Issue
+•	1. Go to GitHub Repo → Issues tab
+•	2. Click 'New Issue' → Fill details → Submit
+Procedure 9: Pull Request
+•	1. git checkout -b new-feature
+•	2. Make changes + git add . + git commit
+•	3. git push origin new-feature
+•	4. Create Pull Request on GitHub
+Procedure 10: Perform Merge Conflict
+•	1. git pull origin main
+•	2. Resolve conflict in file manually
+•	3. git add .
+•	4. git commit -m "Resolved conflicts"
+Procedure 11: Branching
+•	1. git branch new-branch / git checkout -b new-branch
+•	2. git checkout main (to switch)
+•	3. git branch -d new-branch (to delete)
+Procedure 12: Creating Personal Access Token
+•	1. GitHub → Settings → Developer Settings → Tokens
+•	2. Generate new token (copy it)
+•	3. Use it in clone/push URLs as password
